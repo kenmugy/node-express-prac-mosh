@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "start": "DEBUG=app.js nodemon app"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "debug": "^4.1.1",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "mocha": "^6.2.0",
+    "mongoose": "^5.6.11",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2"
+  },
+  "nodemonConfig": {
+    "env": {
+      "PORT": "2200"
+    },
+    "delay": "2000"
+  }
+}
